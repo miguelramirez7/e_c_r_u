@@ -8,13 +8,14 @@ var app = require('../app');
 var debug = require('debug')('crud:server');
 var http = require('http');
 
+
 /**
  * Get port from environment and store in Express.
  */
 
 var port = normalizePort(process.env.PORT || '3030');
 app.set('port', port);
-
+console.log(port)
 /**
  * Create HTTP server.
  */
