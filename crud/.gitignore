@@ -1,0 +1,4 @@
+#ignorando nodejs
+node_modules
+#ignorando package-lock-
+package-lock.json
